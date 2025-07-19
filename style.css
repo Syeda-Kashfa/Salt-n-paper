@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.navbar{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    justify-content: space-around;
+}
+.logo img{
+    width: 180px;
+    height: 100px;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    gap: 20px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+.nav button{
+    width: 140px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+}
+.nav button:hover{
+    background-color: #fff;
+    color: red;
+}
+.image img{
+    width: 100%;
+    height: 600px;
+}
+.image{
+    position: relative;
+} .content{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+.content h1{
+    font-size: 55px;
+    font-weight: bold;
+}
+.content h6{
+    font-style: italic;
+
+}
+.content button{
+    width: 140px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    border: none;
+
+}
+.content button:hover{
+    background-color: #fff;
+    color: red;
+}
+.category{
+     background-color: black;
+     width: 100%;
+     height: 700px;
+     display: flex;
+     flex-direction: column;
+     gap: 60px;
+     align-items: center;
+     
+}
+.category h1{
+    color: white;
+    font-size: 40px;
+    margin-top:  40px;
+}
+.imag{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+   
+    
+}
+.imag img{width: 220px;
+    height: 350px;
+
+}
+.imag h6{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    
+}
