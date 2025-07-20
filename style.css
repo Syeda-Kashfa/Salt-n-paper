@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+
     
 }
 .navbar{
@@ -26,12 +27,26 @@
     color: white;
 }
 .nav button{
-    width: 140px;
+    width: 160px;
     height: 50px;
     border-radius: 30px;
     background-color: red;
     color: white;
     font-size: 18px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.nav button i{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .nav button:hover{
     background-color: #fff;
@@ -43,10 +58,12 @@
 }
 .image{
     position: relative;
-} .content{
+}
+ .content{
     position: absolute;
     top: 50%;
     left: 10%;
+    
 }
 .content h1{
     font-size: 55px;
@@ -54,18 +71,32 @@
 }
 .content h6{
     font-style: italic;
+    letter-spacing: 10px;
+    font-size: 12px;
 
 }
 .content button{
-    width: 140px;
+    width: 160px;
     height: 50px;
     border-radius: 30px;
     background-color: red;
     color: white;
     font-size: 18px;
     border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 
 }
+.content button i{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
 .content button:hover{
     background-color: #fff;
     color: red;
@@ -94,7 +125,8 @@
    
     
 }
-.imag img{width: 220px;
+.imag img{
+    width: 220px;
     height: 350px;
 
 }
@@ -103,4 +135,269 @@
     text-align: center;
     font-size: 18px;
     
+}
+.picture1{
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+.wood{
+    width: 50%;
+}
+.wood img{
+    width: 100%;
+    height: 500px;
+
+}
+/* miss se pochna h ye content cenrte me kese aiga */
+.content1{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 120px;
+    gap: 20px;
+    background-color: #000000e3;
+}
+.content1 h3{
+    color:rgb(255, 0, 0, 0.764);
+    font-size: 16px;
+}
+.content1 h1{
+    font-size: 45px;
+    color: #fff;
+}
+.content1 p{
+    font-size: 18px;
+    color:  #ffffff90;
+}
+.content1 button{
+     width: 160px;
+    height: 40px;
+    border-radius: 20px;
+    background-color:  #0000006e;
+    color: white;
+    font-size: 14px;
+    border: 1px solid white;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+.content1 button i{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+    
+
+
+.category1{
+    background-color: black;
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+     align-items: center;
+     
+}
+.category1 h1{
+    color: white;
+    font-size: 40px;
+    margin-top:  40px;
+}
+
+.gallery1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.cards {
+    width: 360px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.cards img{
+    width: 350px;
+    height: 200px;
+
+}
+.cards h6{
+    color: #fff;
+    font-size: 18px;
+}
+.cards p{
+    color: #ffffff90;
+    font-size: 11px;
+    
+}
+.cards h4{
+    font-size: 18px;
+    color: #fff;
+}
+.picture2{
+    width: 100%;
+    display: flex;
+    height: 600px;
+    background-color: #000000e3;
+    
+}
+.rice{
+    width: 50%;
+}
+.rice img{
+    width: 600px;
+    height: 600px;
+    
+}
+.content2{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 120px;
+    gap: 20px;
+    color: #fff;
+    
+}
+.content2 h3{
+    color: rgba(255, 0, 0, 0.764);
+    font-size: 16px;
+}
+.content2 h1{
+    font-size: 45px;
+    color: #fff;
+}
+.content2 p{
+    font-size: 18px;
+    color:  #ffffff90;
+}
+.content2 h4{
+    font-size: 20px;
+    color: #fff;
+}
+.content2 button{
+     width: 160px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    font-size: 14px;
+    border: none;display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.content2 button i{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+
+}
+.blank{
+    width: 100%;
+    height: 60px;
+    background-color: #000;
+    
+}
+.footeR{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    background-color:  #000000e3; 
+    position: relative;}
+
+
+.footertxt{
+    width: 250px;
+    height: 500px; 
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 60px;
+    
+}
+
+
+.footertxt img{
+    width: 150px;
+    height: 80px;
+}
+.footertxt p{
+    color:  #ffffff90;
+
+}
+.footertxt ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 16px;
+    color:  #ffffff90;
+}
+.footertxt ul li{
+    list-style: none;
+}
+.footertxt h5{
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+.bold{
+    font-size: 16px;
+    color: #fff;
+    
+}
+.clr{
+    color:  #ffffff90;
+}
+
+.slogo img{
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+
+}
+.icon {
+    display: flex;
+    gap: 5px;
+}
+.icon a i{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: rgba(255, 0, 0, 0.568);
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.playstore img{
+    width: 120px;
+    height: 40px;
+
+
 }
