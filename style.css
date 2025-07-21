@@ -10,6 +10,8 @@
     width: 100%;
     height: 100px;
     justify-content: space-around;
+    position: fixed;
+    z-index: 1;
 }
 .logo img{
     width: 180px;
@@ -22,15 +24,47 @@
     font-size: 18px;
     gap: 20px;
 }
+.navbr{
+    display: flex;
+    gap:20px;
+
+}
 .nav a{
     text-decoration: none;
     color: white;
+}
+.cart{
+    position: relative;
+    width: 35px;
+    height: 35px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+.cart1{
+    width: 13px;
+    height: 13px;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 11px;
+    font-weight: bold;
+}
+.nav i{
+    
+    
 }
 .nav button{
     width: 160px;
     height: 50px;
     border-radius: 30px;
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0.841);
     color: white;
     font-size: 18px;
     border: none;
@@ -58,11 +92,18 @@
 }
 .image{
     position: relative;
+    width: 100%;
+    height: 650px;
+    
 }
  .content{
     position: absolute;
     top: 50%;
     left: 10%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
     
 }
 .content h1{
@@ -79,7 +120,7 @@
     width: 160px;
     height: 50px;
     border-radius: 30px;
-    background-color: red;
+    background-color:  rgba(255, 0, 0, 0.841);
     color: white;
     font-size: 18px;
     border: none;
@@ -87,6 +128,8 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+    opacity: 0.8;
+    
 
 }
 .content button i{
@@ -96,7 +139,8 @@
     border-radius: 50%;
     display: flex;
     justify-content: center;
-    align-items: center;}
+    align-items: center;
+}
 .content button:hover{
     background-color: #fff;
     color: red;
@@ -295,7 +339,7 @@
      width: 160px;
     height: 40px;
     border-radius: 20px;
-    background-color: red;
+    background-color:  rgba(255, 0, 0, 0.841);
     color: white;
     font-size: 14px;
     border: none;display: flex;
@@ -314,7 +358,7 @@
 }
     
 
-}
+
 .blank{
     width: 100%;
     height: 60px;
@@ -399,5 +443,21 @@
     width: 120px;
     height: 40px;
 
+
+}
+.last{
+    background: #000000f3;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+
+}
+.last p{
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
 
 }
