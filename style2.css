@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.soup {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    margin-top: 50px;
+
+}
+
+.soupimg {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.soupimg img {
+    width: 300px;
+    height: 150px;
+    margin-top: 50px;
+
+}
+
+.soupimg h3 {
+    font-size: 17px;
+    text-align: center;
+    color: white;
+}
+
+.soupimg h2 {
+    font-size: 14px;
+    text-align: center;
+    color: white;
+}
+
+.soupimg {
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
+
+.sandwich{
+     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    margin-top: 50px;
+}
+.sandimg {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.sandimg img {
+    width: 300px;
+    height: 200px;
+    margin-top: 50px;
+
+}
+.sandimg h3 {
+    font-size: 17px;
+    text-align: center;
+    color: white;
+}
+
+.sandimg h2 {
+    font-size: 14px;
+    text-align: center;
+    color: white;
+}
+
+.sandimg {
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
+.giantburger{
+     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    margin-top: 50px;
+}
+.gburgerimg{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.gburgerimg img {
+    width: 300px;
+    height: 200px;
+    margin-top: 50px;
+
+}
+.gburgerimg h3 {
+    font-size: 17px;
+    text-align: center;
+    color: white;
+}
+
+.gburgerimg h2 {
+    font-size: 14px;
+    text-align: center;
+    color: white;
+}
+
+.gburgerimg {
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
