@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .soup {
@@ -124,6 +125,87 @@
 }
 
 .gburgerimg {
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
+
+
+.chicken{
+     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    margin-top: 50px;
+}
+.chickenimg{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.chickenimg img {
+    width: 300px;
+    height: 200px;
+    margin-top: 50px;
+
+}
+.chickenimg h3 {
+    font-size: 17px;
+    text-align: center;
+    color: white;
+}
+
+.chickenimg h2 {
+    font-size: 14px;
+    text-align: center;
+    color: white;
+}
+
+.chickenimg {
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
+
+.famousburger{
+     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    margin-top: 50px;
+}
+.fburgerimg{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.fburgerimg img {
+    width: 300px;
+    height: 200px;
+    padding-top: 50px;
+
+}
+.fburgerimg h3 {
+    font-size: 17px;
+    text-align: center;
+    color: white;
+}
+
+.fburgerimg h2 {
+    font-size: 14px;
+    text-align: center;
+    color: white;
+}
+
+.fburgerimg {
     font-size: 12px;
     text-align: center;
     color: white;
